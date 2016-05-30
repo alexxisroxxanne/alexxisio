@@ -4,6 +4,9 @@
 html {
   font-family: 'Quicksand', sans-serif;
 }
+body {
+  margin: 0;
+}
 [class*="col-"] {
   width: 100%;
   float: left;
@@ -35,4 +38,14 @@ img {
 }
 .header {
   text-align: center;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+.row-pic {
+  position: absolute;
+  top: 0;
 }
