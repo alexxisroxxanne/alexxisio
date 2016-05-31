@@ -66,3 +66,7 @@ a:hover {
   position: absolute;
   top: 0;
 }
+.repo-links {
+  text-align: right;
+  height: 100%;
+}
