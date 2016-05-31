@@ -65,7 +65,7 @@ a:hover {
 }
 .row-pic {
   position: absolute;
-  top: 5%;
+  top: 0;
 }
 .repo-links {
   text-align: right;
