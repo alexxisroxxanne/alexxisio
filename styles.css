@@ -3,17 +3,17 @@
 }
 html {
   font-family: 'Quicksand', sans-serif;
-  color: #ffffff;
+  color: #000;
 }
 body {
   margin: 0;
-  background-color: #000000;
+  /*background-color: #000000;*/
 }
 [class*="col-"] {
   width: 100%;
   float: left;
   padding: 15px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 @media only screen and (min-width: 768px) {
   .col-1 {width: 8.33%;}
@@ -52,19 +52,20 @@ h3 {
 }
 a {
   font-weight: 300;
-  color: #ffffff;
+  color: #000;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
-.header {
+.header, .header a {
+  color: #fff;
   text-align: center;
   text-shadow: 1px 1px 0 #000000;
 }
 .row-pic {
   position: absolute;
-  top: 0;
+  top: 5%;
 }
 .repo-links {
   text-align: right;
