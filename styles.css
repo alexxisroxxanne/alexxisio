@@ -64,10 +64,14 @@ a:hover {
   text-shadow: 1px 1px 0 #000000;
 }
 .row-pic {
-  position: absolute;
-  top: 0;
+/*  position: absolute;
+  top: 0;*/
+  background-color: #e91e63;
 }
 .repo-links {
   text-align: right;
   height: 100%;
+}
+#portfolio-title {
+  padding-top: 10px;
 }
