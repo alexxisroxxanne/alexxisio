@@ -7,7 +7,6 @@ html {
 }
 body {
   margin: 0;
-  /*background-color: #000000;*/
 }
 [class*="col-"] {
   width: 100%;
@@ -63,15 +62,13 @@ a:hover {
   text-align: center;
   text-shadow: 1px 1px 0 #000000;
 }
-.row-pic {
-/*  position: absolute;
-  top: 0;*/
+.top-background {
   background-color: #e91e63;
 }
 .repo-links {
   text-align: right;
   height: 100%;
 }
-#portfolio-title {
-  padding-top: 10px;
+.section-title {
+  padding: 0 15px;
 }
