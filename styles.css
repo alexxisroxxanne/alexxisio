@@ -72,7 +72,11 @@ a:hover {
 .section-title {
   padding: 0 15px;
 }
-.bio {
+.subheaders {
   border-right: 2px solid black;
   text-align: right;
 }
+.pink-div {
+  border-top: 4px double #e91e63;
+}
+
