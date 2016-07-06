@@ -49,6 +49,9 @@ h3 {
   font-weight: 300;
   font-size: 1.5em;
 }
+ul {
+  list-style: none;
+}
 a {
   font-weight: 300;
   color: #000;
@@ -66,13 +69,14 @@ a:hover {
   background-color: #e91e63;
 }
 .repo-links {
-  text-align: right;
-  height: 100%;
+/*  text-align: right;
+  height: 100%;*/
+  border-bottom: 1px dotted #e91e63;
 }
 .section-title {
   padding: 0 15px;
 }
-.section-title a {
+.section-title a, #github-link {
   color: #e91e63;
 }
 #speechdoctor, #other-projects {
@@ -85,4 +89,6 @@ a:hover {
 .pink-div {
   border-top: 4px double #e91e63;
 }
-
+.app-description {
+  border-top: 1px dotted #e91e63;
+}
