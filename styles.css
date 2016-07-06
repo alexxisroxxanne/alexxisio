@@ -72,6 +72,12 @@ a:hover {
 .section-title {
   padding: 0 15px;
 }
+.section-title a {
+  color: #e91e63;
+}
+#speechdoctor, #other-projects {
+  text-align: right;
+}
 .subheaders {
   border-right: 2px solid black;
   text-align: right;
